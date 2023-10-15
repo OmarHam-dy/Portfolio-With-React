@@ -1,0 +1,39 @@
+.portfolio{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.portfolio .container{}
+.portfolio .container .heading{
+    font-size: 60px;
+    margin-bottom: 80px;
+    text-shadow: 3px 3px 4px black;
+}
+.portfolio .container .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.portfolio .container .content .card{
+    width: 30%;
+    margin-bottom: 40px;
+}
+@media (max-width: 991px) {
+    .portfolio .container .content .card{
+        width: 45%;
+    }
+}
+
+@media (max-width: 767px) {
+    .portfolio .container .heading{
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .portfolio .container .content{
+        justify-content: center;
+    }
+    .portfolio .container .content .card{
+        width: 95%;
+    }
+}

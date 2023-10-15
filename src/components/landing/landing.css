@@ -1,0 +1,39 @@
+.landing{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-image: url('https://drive.google.com/uc?export=view&id=1bVaVVGaN_W1S5GrSG_ZjbPI5EGIDHySE');
+    background-size: cover;
+    color: #fff;
+}
+
+.landing .content{
+    position: absolute;
+    top: 160px;
+    left: 20px;
+}
+.landing h3{
+    text-align: center;
+    font-size: 50px;
+}
+.landing p{
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif; 
+}
+.landing p span{
+    font-family: initial;
+}
+.landing a{
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    border: solid 1px #fff;
+    width: fit-content;
+    margin: 60px auto;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+

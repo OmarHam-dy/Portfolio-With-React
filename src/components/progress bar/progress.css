@@ -1,0 +1,25 @@
+.progress{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+.progress .title{
+    width: 35%;
+    height: 100%;
+    background-color: #959188;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.progress .bar{
+    flex: 1;
+    height: 100%;
+    background-color: #fff;
+}
+.progress .bar span{
+    background-color: #e0dfdb;
+    display: block;
+    height: 100%;
+}
